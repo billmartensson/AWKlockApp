@@ -11,7 +11,61 @@
 		AB203A77256E7C41005E3387 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB203A76256E7C41005E3387 /* ContentView.swift */; };
 		AB203A79256E7C44005E3387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB203A78256E7C44005E3387 /* Assets.xcassets */; };
 		AB203A7C256E7C44005E3387 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB203A7B256E7C44005E3387 /* Preview Assets.xcassets */; };
+		AB203A89256E7FE2005E3387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB203A88256E7FE2005E3387 /* Assets.xcassets */; };
+		AB203A90256E7FE2005E3387 /* KlockappAW Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB203A8F256E7FE2005E3387 /* KlockappAW Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB203A95256E7FE2005E3387 /* KlockappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB203A94256E7FE2005E3387 /* KlockappApp.swift */; };
+		AB203A97256E7FE2005E3387 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB203A96256E7FE2005E3387 /* ContentView.swift */; };
+		AB203A99256E7FE2005E3387 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB203A98256E7FE2005E3387 /* NotificationController.swift */; };
+		AB203A9B256E7FE2005E3387 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB203A9A256E7FE2005E3387 /* NotificationView.swift */; };
+		AB203A9D256E7FE3005E3387 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB203A9C256E7FE2005E3387 /* ComplicationController.swift */; };
+		AB203A9F256E7FE3005E3387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB203A9E256E7FE3005E3387 /* Assets.xcassets */; };
+		AB203AA2256E7FE3005E3387 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB203AA1256E7FE3005E3387 /* Preview Assets.xcassets */; };
+		AB203AA7256E7FE3005E3387 /* KlockappAW.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB203A86256E7FE0005E3387 /* KlockappAW.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB203AB4256E849B005E3387 /* Klockcom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB203AB3256E849B005E3387 /* Klockcom.swift */; };
+		AB203ABF256E8842005E3387 /* Klockcom.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB203AB3256E849B005E3387 /* Klockcom.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB203A91256E7FE2005E3387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB203A69256E7C41005E3387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB203A8E256E7FE2005E3387;
+			remoteInfo = "KlockappAW Extension";
+		};
+		AB203AA5256E7FE3005E3387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB203A69256E7C41005E3387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB203A85256E7FE0005E3387;
+			remoteInfo = KlockappAW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB203AAB256E7FE3005E3387 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB203A90256E7FE2005E3387 /* KlockappAW Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB203AAF256E7FE3005E3387 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AB203AA7256E7FE3005E3387 /* KlockappAW.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB203A71256E7C41005E3387 /* Klockapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klockapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +74,33 @@
 		AB203A78256E7C44005E3387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB203A7B256E7C44005E3387 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB203A7D256E7C44005E3387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB203A86256E7FE0005E3387 /* KlockappAW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlockappAW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB203A88256E7FE2005E3387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB203A8A256E7FE2005E3387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB203A8F256E7FE2005E3387 /* KlockappAW Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KlockappAW Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB203A94256E7FE2005E3387 /* KlockappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlockappApp.swift; sourceTree = "<group>"; };
+		AB203A96256E7FE2005E3387 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB203A98256E7FE2005E3387 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AB203A9A256E7FE2005E3387 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		AB203A9C256E7FE2005E3387 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		AB203A9E256E7FE3005E3387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB203AA1256E7FE3005E3387 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB203AA3256E7FE3005E3387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB203AA4256E7FE3005E3387 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AB203AB3256E849B005E3387 /* Klockcom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Klockcom.swift; sourceTree = "<group>"; };
+		AB203AC3256E8CCF005E3387 /* Klockapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Klockapp.entitlements; sourceTree = "<group>"; };
+		AB203ACA256E8D13005E3387 /* KlockappAW Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KlockappAW Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB203A6E256E7C41005E3387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB203A8C256E7FE2005E3387 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				AB203A73256E7C41005E3387 /* Klockapp */,
+				AB203A87256E7FE0005E3387 /* KlockappAW */,
+				AB203A93256E7FE2005E3387 /* KlockappAW Extension */,
 				AB203A72256E7C41005E3387 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				AB203A71256E7C41005E3387 /* Klockapp.app */,
+				AB203A86256E7FE0005E3387 /* KlockappAW.app */,
+				AB203A8F256E7FE2005E3387 /* KlockappAW Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +133,10 @@
 		AB203A73256E7C41005E3387 /* Klockapp */ = {
 			isa = PBXGroup;
 			children = (
+				AB203AC3256E8CCF005E3387 /* Klockapp.entitlements */,
 				AB203A74256E7C41005E3387 /* KlockappApp.swift */,
 				AB203A76256E7C41005E3387 /* ContentView.swift */,
+				AB203AB3256E849B005E3387 /* Klockcom.swift */,
 				AB203A78256E7C44005E3387 /* Assets.xcassets */,
 				AB203A7D256E7C44005E3387 /* Info.plist */,
 				AB203A7A256E7C44005E3387 /* Preview Content */,
@@ -69,6 +152,40 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AB203A87256E7FE0005E3387 /* KlockappAW */ = {
+			isa = PBXGroup;
+			children = (
+				AB203A88256E7FE2005E3387 /* Assets.xcassets */,
+				AB203A8A256E7FE2005E3387 /* Info.plist */,
+			);
+			path = KlockappAW;
+			sourceTree = "<group>";
+		};
+		AB203A93256E7FE2005E3387 /* KlockappAW Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB203ACA256E8D13005E3387 /* KlockappAW Extension.entitlements */,
+				AB203A94256E7FE2005E3387 /* KlockappApp.swift */,
+				AB203A96256E7FE2005E3387 /* ContentView.swift */,
+				AB203A98256E7FE2005E3387 /* NotificationController.swift */,
+				AB203A9A256E7FE2005E3387 /* NotificationView.swift */,
+				AB203A9C256E7FE2005E3387 /* ComplicationController.swift */,
+				AB203A9E256E7FE3005E3387 /* Assets.xcassets */,
+				AB203AA3256E7FE3005E3387 /* Info.plist */,
+				AB203AA4256E7FE3005E3387 /* PushNotificationPayload.apns */,
+				AB203AA0256E7FE3005E3387 /* Preview Content */,
+			);
+			path = "KlockappAW Extension";
+			sourceTree = "<group>";
+		};
+		AB203AA0256E7FE3005E3387 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB203AA1256E7FE3005E3387 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +196,51 @@
 				AB203A6D256E7C41005E3387 /* Sources */,
 				AB203A6E256E7C41005E3387 /* Frameworks */,
 				AB203A6F256E7C41005E3387 /* Resources */,
+				AB203AAF256E7FE3005E3387 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AB203AA6256E7FE3005E3387 /* PBXTargetDependency */,
 			);
 			name = Klockapp;
 			productName = Klockapp;
 			productReference = AB203A71256E7C41005E3387 /* Klockapp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AB203A85256E7FE0005E3387 /* KlockappAW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB203AAC256E7FE3005E3387 /* Build configuration list for PBXNativeTarget "KlockappAW" */;
+			buildPhases = (
+				AB203A84256E7FE0005E3387 /* Resources */,
+				AB203AAB256E7FE3005E3387 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB203A92256E7FE2005E3387 /* PBXTargetDependency */,
+			);
+			name = KlockappAW;
+			productName = KlockappAW;
+			productReference = AB203A86256E7FE0005E3387 /* KlockappAW.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AB203A8E256E7FE2005E3387 /* KlockappAW Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB203AA8256E7FE3005E3387 /* Build configuration list for PBXNativeTarget "KlockappAW Extension" */;
+			buildPhases = (
+				AB203A8B256E7FE2005E3387 /* Sources */,
+				AB203A8C256E7FE2005E3387 /* Frameworks */,
+				AB203A8D256E7FE2005E3387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KlockappAW Extension";
+			productName = "KlockappAW Extension";
+			productReference = AB203A8F256E7FE2005E3387 /* KlockappAW Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +252,12 @@
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					AB203A70256E7C41005E3387 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					AB203A85256E7FE0005E3387 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					AB203A8E256E7FE2005E3387 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -117,6 +276,8 @@
 			projectRoot = "";
 			targets = (
 				AB203A70256E7C41005E3387 /* Klockapp */,
+				AB203A85256E7FE0005E3387 /* KlockappAW */,
+				AB203A8E256E7FE2005E3387 /* KlockappAW Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +292,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB203A84256E7FE0005E3387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB203A89256E7FE2005E3387 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB203A8D256E7FE2005E3387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB203AA2256E7FE3005E3387 /* Preview Assets.xcassets in Resources */,
+				AB203A9F256E7FE3005E3387 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,11 +317,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB203A77256E7C41005E3387 /* ContentView.swift in Sources */,
+				AB203AB4256E849B005E3387 /* Klockcom.swift in Sources */,
 				AB203A75256E7C41005E3387 /* KlockappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB203A8B256E7FE2005E3387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB203A99256E7FE2005E3387 /* NotificationController.swift in Sources */,
+				AB203A97256E7FE2005E3387 /* ContentView.swift in Sources */,
+				AB203A9D256E7FE3005E3387 /* ComplicationController.swift in Sources */,
+				AB203A95256E7FE2005E3387 /* KlockappApp.swift in Sources */,
+				AB203ABF256E8842005E3387 /* Klockcom.swift in Sources */,
+				AB203A9B256E7FE2005E3387 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB203A92256E7FE2005E3387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB203A8E256E7FE2005E3387 /* KlockappAW Extension */;
+			targetProxy = AB203A91256E7FE2005E3387 /* PBXContainerItemProxy */;
+		};
+		AB203AA6256E7FE3005E3387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB203A85256E7FE0005E3387 /* KlockappAW */;
+			targetProxy = AB203AA5256E7FE3005E3387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AB203A7E256E7C44005E3387 /* Debug */ = {
@@ -267,8 +472,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Klockapp/Klockapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Klockapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Klockapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -288,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Klockapp/Klockapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Klockapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -301,6 +509,94 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB203AA9256E7FE3005E3387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "KlockappAW Extension/KlockappAW Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KlockappAW Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "KlockappAW Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.Klockapp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		AB203AAA256E7FE3005E3387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "KlockappAW Extension/KlockappAW Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"KlockappAW Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "KlockappAW Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.Klockapp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		AB203AAD256E7FE3005E3387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = KlockappAW_Extension;
+				INFOPLIST_FILE = KlockappAW/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.Klockapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		AB203AAE256E7FE3005E3387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = KlockappAW_Extension;
+				INFOPLIST_FILE = KlockappAW/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = se.magictechnology.Klockapp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
 			};
 			name = Release;
 		};
@@ -321,6 +617,24 @@
 			buildConfigurations = (
 				AB203A81256E7C44005E3387 /* Debug */,
 				AB203A82256E7C44005E3387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB203AA8256E7FE3005E3387 /* Build configuration list for PBXNativeTarget "KlockappAW Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB203AA9256E7FE3005E3387 /* Debug */,
+				AB203AAA256E7FE3005E3387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB203AAC256E7FE3005E3387 /* Build configuration list for PBXNativeTarget "KlockappAW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB203AAD256E7FE3005E3387 /* Debug */,
+				AB203AAE256E7FE3005E3387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
